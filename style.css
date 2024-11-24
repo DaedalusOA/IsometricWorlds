@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgb(17,17,17);
+}
+
+
+h2 {
+    position: absolute;
+    z-index: 4; /* Higher z-index to appear above the canvas */
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Quicksand", serif;
+    user-select: none; /* Prevents text selection */
+    top: 20px;
+    background-color: transparent;
+    left: 20px;
+}
+
+a {
+    z-index: 2; /* Higher z-index to appear above the canvas */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Quicksand", serif;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    user-select: none; /* Prevents text selection */
+    transition: ease-in-out 0.2s;
+}
+a:hover{
+    font-weight: 600;
+}
